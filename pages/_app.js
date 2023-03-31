@@ -1,6 +1,5 @@
 import '../styles/global.css'
-import Index from "./index";
 
-export default function MyApp({component, pageProps}) {
-    return <Index {...pageProps}/>
+export default function MyApp({Component, pageProps}) {
+    return <Component {...pageProps}/>
 }
